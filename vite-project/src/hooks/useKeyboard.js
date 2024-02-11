@@ -6,11 +6,11 @@ const ACTIONS_KEYBOARD_MAP = {
     KeyA: 'moveLeft',
     KeyD: 'moveRight',
     Space: 'jump',
-    digit1: 'dirt',
-    digit2: 'grass',
-    digit3: 'wood',
-    digit4: 'glass',
-    digit5: 'log'
+    Digit1: 'dirt',
+    Digit3: 'grass',
+    Digit5: 'wood',
+    Digit2: 'glass',
+    Digit4: 'log'
 }
 export const useKeyBoard = () => {
     

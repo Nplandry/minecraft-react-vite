@@ -5,7 +5,8 @@ import { Ground } from './Components/Ground.jsx';
 import { FVP as Fvp} from './Components/FPV';
 import { Player } from './Components/Player.jsx';
 import { Cubes } from './Components/Cubes.jsx'
-
+import { TextureSelector } from './Components/TextureSelect.jsx'
+ 
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
       <Fvp />
     </Canvas>
     <div className='pointer'>+</div>
+    <TextureSelector />
     </>
   )
 }

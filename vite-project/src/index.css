@@ -22,4 +22,31 @@ body {
   font-size: 40px;
   top: 44%;
   left: 49%;
+
+}
+
+
+.texture-selector {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ccc;
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.texture-selector.hidden {
+  display: none;
+}
+
+.texture-selector img {
+  width: 100px;
+  image-rendering: pixelated;
+  border: 5px solid black;
+}
+
+.texture-selector img.selected {
+  border-color: whitesmoke;
 }
